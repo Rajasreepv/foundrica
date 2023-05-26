@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: "https://foundericas.onrender.com",
+  origin: "http://localhost:3000",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
@@ -235,6 +235,6 @@ User.findOne({username:username}).then((user)=>{
   res.json(user);
 })
 })
-app.listen(8080, () => {
+app.listen("https://foundericas.onrender.com", () => {
   console.log("server connected to 8080");
 });
