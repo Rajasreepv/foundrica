@@ -1,0 +1,314 @@
+*{
+  
+  font-family: monospace;
+}
+.brand{
+  color:#7DB9B6;
+ font-family: monospace;
+ font-size: 2.5rem;
+ font-weight: bold;
+ text-shadow: 2px 2px;
+}
+.home,.aboutus,.sponsors,.events,.contact{
+ justify-content: right;
+color: #19376D;
+font-size: 1.5rem;
+text-decoration: none;
+margin-right: 10px;
+
+
+}
+
+.announcements{
+  background-color: #A5D7E8;
+}
+.logo
+{
+   margin-top: 0.5rem;
+  max-width: 7%;
+  max-height: 7%;
+ 
+}
+.logo2
+{
+ 
+  margin-top: 0.5rem;
+  position: absolute;
+  right: 0;
+  max-width: 15%;
+  max-height: 15%;
+  
+  
+}
+@media only screen and (max-width: 420px) {
+ .logo2{
+  max-width: 10%;
+  max-height: 10%;
+ }
+ .d-block
+{
+  /* display: block;
+  width: auto;
+  height: auto; */
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+}
+.joinus{
+ 
+    background-color: #9DC08B; 
+    border: none;
+   color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+   display: block;
+    font-size: 15px;
+   width: 10rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 2%;
+}
+.connect{
+  border: none;
+  background-color: steelblue; 
+   color:white;
+    padding: 8px 32px;
+    text-align: center;
+   display: inline-block;
+    font-size: 15px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+.comingeventsheading
+{
+  margin: 2%;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+      text-align: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+/* signinlink */
+a{
+  text-decoration: none;
+  color: white;
+}
+.tag{
+  color:#002B5B;
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.section{
+  margin: 3rem;
+}
+.sectionheading{
+color: #19376D;
+margin-top: 1rem;
+text-align: center;
+}
+.sectioncontent
+{
+  font-family: monospace;
+  color: #070A52;
+ font-size: 1.5rem;
+ margin: 3rem;
+}
+.carousel
+{
+max-width: 100;
+max-height: 500px
+  
+}
+
+.caption
+{
+font-size: 2rem;
+color: aliceblue;
+background-color: #002B5B;
+opacity:0.7;
+}
+.mission{
+  margin-top: 5rem;
+  
+}
+.joinus:hover {
+ 
+  background-color: #19376D;
+  border-color: #5b288e;
+}
+.events {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+    color: #19376D;
+  }
+}
+.eventheading
+{
+  font-size: 3rem;
+  font-style: oblique;
+  color: #F99B7D;
+  text-align: center;
+  margin-top: auto;
+}
+.eventregister
+{
+  background-image: "";
+background-color: #9DC08B;
+margin: 2rem;
+}
+.eventregisterheading
+{
+ font-size: 2.5rem;
+color: #FFF8DE;
+padding: 0.5rem;
+}
+.cardtitle{
+  color: #002B5B;
+  font-weight: bold;
+  background-color: #A5D7E8;
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: 0.9;
+  font-style: oblique;
+ 
+
+}
+.cards{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) ;
+  justify-content: center;
+  margin: 1rem;
+}
+.cardcontent{
+ font-style: oblique;
+font-weight: bolder;
+color: #1A5F7A;
+}
+.footer {
+  background-color: #A5D7E8;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__address {
+  margin-bottom: 10px;
+}
+
+.footer__copyright {
+  margin-bottom: 10px;
+}
+.icon2
+{
+margin: 2rem;
+}
+.icon1,.icon2,.icon3{
+  font-size: 2.5rem;
+  color: #19376D;
+}
+.icons :hover{
+ color:#1A5F7A;
+}
+
+
+.aboutusheading{
+  color: #19376D;
+  margin: 2rem;
+ 
+}
+.aboutuscontent
+{
+margin: 2rem;
+font-size: 1.7rem;
+}
+.card-img
+{
+ padding: 2.5rem;
+
+}
+.contactform
+{
+  padding: 2rem;
+  font-family: cursive;
+ 
+}
+input , textarea,.btn{
+  display: flex;
+  border-radius: 0.2rem;
+
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+ width: 200px;
+ justify-content: center;
+
+ 
+}
+.profilepage
+{
+ text-align: center;
+
+  background: url(../src/pages/images/bg.jpg);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+ 
+ 
+}
+.welcome
+{
+  font-size: 4rem;
+  font-weight: bold ;
+  font-family: cursive ;
+  background-color: 0.9,0.9,255;
+  padding-top: 1rem;
+}
+.registration
+{
+  margin-top: 5rem;
+  background-color:black;
+  color: white;
+
+  
+}
+@media only screen and (min-width: 300px) {
+  .logout{
+  margin: auto;
+  }
+}

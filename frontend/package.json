@@ -1,0 +1,44 @@
+{
+  "name": "justtry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+    
+    
+   
+  },
+ 
+  "author": "rjzre",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "node": "^20.1.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "^5.0.1",
+    "sweetalert": "^2.1.2",
+    "web-vitals": "^3.3.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "description": ""
+}
