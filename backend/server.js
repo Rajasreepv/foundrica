@@ -20,7 +20,10 @@ const corsOptions = {
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
+app.use(express.json());
+
 app.use(cors(corsOptions));
+
 app.use(express.static(path.join(__dirname, "../frontend/public/index.html")));
 // app.use(express.static(path.join(__dirname, "../frontend/build/index.html")));
 // app.get("*", function (req, res) {
@@ -236,6 +239,7 @@ const username=req.body.username;
 
 User.findOne({username:username}).then((user)=>{
   console.log("Updated user after registration",user);
+
   res.json(user);
 })
 })
