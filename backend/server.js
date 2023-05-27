@@ -123,7 +123,7 @@ app.post("/login", (req, res) => {
   if (username === "" || password === "") {
     res.json("fillfields");
   } else {
-    User.findOne({ username: username }).then((user) => {
+    User.findOne({ username: username }).maxTimeMS(5000).then((user) => {
       // console.log(user.username);
 if(user){
       const istrue = bcrypt.compare(password, user.password);
@@ -141,7 +141,11 @@ if(user){
       } }else {
         res.json("doesntexist");
       }
-    });
+    }).catch((err)=>
+    {
+      console.log("error")
+    }
+    );
   }
 });
 const verifyToken = (req, res, next) => {
